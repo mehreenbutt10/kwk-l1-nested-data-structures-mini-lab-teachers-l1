@@ -13,7 +13,13 @@ def sandwich_request(ingredients, order)
       ["swiss", "munster", "cheddar"],
       ["mayo", "mustard", "tabasco"]
   ]
-  order = array.new
+  order = [
+      ["rye", "sourdough", "baguette"],
+      ["ham", "salami", "turkey"],
+      ["swiss", "munster", "cheddar"],
+      ["mayo", "mustard", "tabasco"]
+  ]
+  
   if ingredients == order
     return true
   else
