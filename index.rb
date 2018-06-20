@@ -16,7 +16,7 @@ def sandwich_request(ingredients, order)
   order = array.new
   if ingredients == order
     return true
-  else 
+  else
     return false
   end
 end
