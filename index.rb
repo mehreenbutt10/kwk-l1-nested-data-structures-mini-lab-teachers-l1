@@ -22,7 +22,7 @@ def sandwich_request(ingredients, order)
 
   if ingredients == order
     return true
-  elsif ingredients != order
+  else
     return false
   end
 end
