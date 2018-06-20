@@ -9,6 +9,8 @@ ingredients = [
 def sandwich_request(ingredients, order)
   order = array.new
   if ingredients == order
+    return true
+  end
 end
 
 # example city_info hash
