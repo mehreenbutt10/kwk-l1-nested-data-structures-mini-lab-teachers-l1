@@ -19,7 +19,7 @@ def sandwich_request(ingredients, order)
       ["swiss", "munster", "cheddar"],
       ["mayo", "mustard", "tabasco"]
   ]
-  
+
   if ingredients == order
     return true
   elsif ingredients != order
